@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demande de Devis | CG SÉCURITÉ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1614696849994-a7c02fd2903c?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    main {
+      max-width: 700px;
+      background: #fff;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    form label {
+      font-weight: bold;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 1rem;
+      margin: 0.5rem 0 1.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #333;
+    }
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Demande de Devis</h1>
+    <p>Pour toute demande de prestation en sécurité, remplissez ce formulaire et nous vous répondrons rapidement.</p>
+  </header>
+
+  <main>
+    <form>
+      <label for="nom">Nom complet</label>
+      <input id="nom" type="text" placeholder="Votre nom" required />
+
+      <label for="email">Adresse email</label>
+      <input id="email" type="email" placeholder="exemple@mail.com" required />
+
+      <label for="tel">Téléphone</label>
+      <input id="tel" type="tel" placeholder="06 00 00 00 00" required />
+
+      <label for="service">Type de prestation</label>
+      <input id="service" type="text" placeholder="Surveillance, SSIAP, événementiel..." required />
+
+      <label for="message">Message / Détail</label>
+      <textarea id="message" rows="6" placeholder="Expliquez votre besoin en quelques lignes..." required></textarea>
+
+      <button type="submit">Envoyer ma demande</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 CG SÉCURITÉ — contact@cg-securite.fr — 20 rue Pierre Curie, Talence (33400)
+  </footer>
+</body>
+</html>
