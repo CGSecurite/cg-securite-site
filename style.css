@@ -6,12 +6,6 @@ body {
   background-color: #f8f9fa;
   color: #333;
 }
-header {
-  background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-}
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
